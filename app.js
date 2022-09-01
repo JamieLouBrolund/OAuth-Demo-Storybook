@@ -23,7 +23,7 @@ const app = express();
 //BODY PARSER
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
+layouts;
 // Method override
 app.use(
   methodOverride(function (req, res) {
